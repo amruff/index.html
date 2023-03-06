@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Feedback Form</title>
+      </head>
+    <header>
+
+        <a href="index.html">Home</a>
+        <a href="movies.html">Movies</a>
+        <a href="about.html">About</a>
+        <a href="recommendations.html"> Recommendations</a>
+        
+        <h1>Ruff Reviews with Alina Ruff</h1>
+   </header>
+    <body>
+        <h2>Leave a Recommendation</h2>
+      <form action="mailto:amruff@email.sc.edu" method="post" enctype="text/plain">
+        Movie name: <input type="text" name="moviename" placeholder="Enter movie here">
+        <br>
+        Genre: <input type="text" name="genre"  placeholder="Enter genre here">
+        <br>
+        <br>
+
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+            <br>
+                <br>
+                <!--This uses the new HTML "email" INPUT type which will automatically validates the email address when the SUBMIT button is clicked-->
+                Email (optional): <input type="email" name="mail" placeholder="e-mail address">
+                <br>
+                <br>
+                  Review :<br>        
+             <textarea rows="6" cols="50" name="commentfield"></textarea>
+            <br>
+                  <br>
+                  <input type="submit" value="Send Recommendation">
+                  <input type="reset" value="Reset">
+                  </form>
+
+                  <br>
+
+                  <footer>
+                    <tr>
+                        <td colspan="3">Copyright &copy; Alina's Website 2023</td>
+                    </tr>
+                </footer>
+              
+                </body>  
+            </html>
